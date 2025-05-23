@@ -5,6 +5,29 @@ plugins:
 
 sources:
 
+  soil_national:
+    name: 'SOIL national'
+    description: 'Default soil data for ldndctools (site file generation)'
+    driver: netcdf
+    parameters:
+      res:
+        default: 'LR'
+        allowed: ['LR', 'MR', 'HR']
+        description: 'Resolution (LR, MR or HR).'
+        type: str
+    args:
+      urlpath: 'simplecache::s3://ldndcdata/GLOBAL_WISESOIL_S1_{{res}}.nc'
+      storage_options:
+        s3:
+          anon: true
+          default_fill_cache: false
+          client_kwargs:
+            endpoint_url: 'https://s3.imk-ifu.kit.edu:{{port}}'
+            verify: False
+        simplecache:
+          cache_storage: '.cache'
+          same_names: true
+
   soil:
     name: 'SOIL'
     description: 'Default soil data for ldndctools (site file generation)'
@@ -17,8 +40,13 @@ sources:
         type: str
     args:
       urlpath: 'simplecache::s3://ldndcdata/GLOBAL_WISESOIL_S1_{{res}}.nc'
-      engine: h5netcdf
       storage_options:
+        s3:
+          anon: true
+          default_fill_cache: false
+          client_kwargs:
+            endpoint_url: 'https://s3.imk-ifu.kit.edu:{{port}}'
+            verify: False
         simplecache:
           cache_storage: '.cache'
           same_names: true
@@ -36,7 +64,7 @@ sources:
         description: 'Resolution (10, 50 or 110m).'
         type: int
     args:
-      urlpath: simplecache::https://github.com/GraceBarbacias/sources/raw/main/ne_50m_admin_0_countries.zip
+      urlpath: '/Users/kraus-d/projects/ldndctools-kraus/data/ne_50m_admin_0_countries.zip'
       use_fsspec: True
       storage_options:
         simplecache:
@@ -55,7 +83,6 @@ sources:
         type: str
     args:
       urlpath: 'simplecache::s3://ldndcdata/misc/elevation_{{res}}.nc'
-      engine: h5netcdf
       storage_options:
         s3:
           anon: true
@@ -71,7 +98,6 @@ sources:
     driver: zarr
     args:
       urlpath: 's3://era5land-zarr/data.zarr'
-      engine: h5netcdf
       storage_options:
         use_ssl: True
         anon: True
@@ -93,7 +119,6 @@ sources:
         type: int
     args:
       urlpath: 'simplecache::s3://ldndcdata/climate/pgf3/pgf_025deg_v3_{{year}}.nc'
-      engine: h5netcdf
       storage_options:
         s3:
           anon: true

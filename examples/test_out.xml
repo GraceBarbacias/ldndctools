@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<ldndcsite>
+	<description/>
+	<site id="959588788" lat="28.24999996470062" lon="105.24999988589798">
+		<general/>
+		<soil>
+			<general usehistory="arable" soil="NONE" humus="NONE" litterheight="0.0" corg5="-99.99" corg30="-99.99"/>
+			<layers>
+				<layer depth="20" ph="5.11" scel="0.11" bd="1.36" sks="-99.99" norg="0.00088" corg="0.01031" clay="0.21" sand="0.59" silt="0.2" wcmin="144.67" wcmax="338.81" iron="0.01"/>
+				<layer depth="180" ph="5.11" scel="0.11" bd="1.36" sks="-99.99" norg="0.00088" corg="0.01031" clay="0.21" sand="0.59" silt="0.2" wcmin="144.67" wcmax="338.81" iron="0.01"/>
+				<layer depth="200" ph="5.0" scel="0.12" bd="1.39" sks="-99.99" norg="0.00054" corg="0.00547" clay="0.28" sand="0.53" silt="0.19" wcmin="178.9" wcmax="351.91" iron="0.01"/>
+				<layer depth="200" ph="4.96" scel="0.14" bd="1.4" sks="-99.99" norg="0.00045" corg="0.00411" clay="0.33" sand="0.49" silt="0.18" wcmin="206.85" wcmax="364.43" iron="0.01"/>
+				<layer depth="200" ph="4.97" scel="0.18" bd="1.4" sks="-99.99" norg="0.00039" corg="0.00344" clay="0.36" sand="0.47" silt="0.17" wcmin="223.52" wcmax="372.0" iron="0.01"/>
+				<layer depth="200" ph="5.0" scel="0.16" bd="1.38" sks="-99.99" norg="0.00037" corg="0.00291" clay="0.36" sand="0.46" silt="0.18" wcmin="223.03" wcmax="373.92" iron="0.01"/>
+			</layers>
+		</soil>
+	</site>
+	<site id="959611798" lat="28.24999996470062" lon="105.74999988569795">
+		<general/>
+		<soil>
+			<general usehistory="arable" soil="NONE" humus="NONE" litterheight="0.0" corg5="-99.99" corg30="-99.99"/>
+			<layers>
+				<layer depth="20" ph="5.11" scel="0.11" bd="1.36" sks="-99.99" norg="0.00088" corg="0.01031" clay="0.21" sand="0.59" silt="0.2" wcmin="144.67" wcmax="338.81" iron="0.01"/>
+				<layer depth="180" ph="5.11" scel="0.11" bd="1.36" sks="-99.99" norg="0.00088" corg="0.01031" clay="0.21" sand="0.59" silt="0.2" wcmin="144.67" wcmax="338.81" iron="0.01"/>
+				<layer depth="200" ph="5.0" scel="0.12" bd="1.39" sks="-99.99" norg="0.00054" corg="0.00547" clay="0.28" sand="0.53" silt="0.19" wcmin="178.9" wcmax="351.91" iron="0.01"/>
+				<layer depth="200" ph="4.96" scel="0.14" bd="1.4" sks="-99.99" norg="0.00045" corg="0.00411" clay="0.33" sand="0.49" silt="0.18" wcmin="206.85" wcmax="364.43" iron="0.01"/>
+				<layer depth="200" ph="4.97" scel="0.18" bd="1.4" sks="-99.99" norg="0.00039" corg="0.00344" clay="0.36" sand="0.47" silt="0.17" wcmin="223.52" wcmax="372.0" iron="0.01"/>
+				<layer depth="200" ph="5.0" scel="0.16" bd="1.38" sks="-99.99" norg="0.00037" corg="0.00291" clay="0.36" sand="0.46" silt="0.18" wcmin="223.03" wcmax="373.92" iron="0.01"/>
+			</layers>
+		</soil>
+	</site>
+	<site id="959593889" lat="28.749999964500617" lon="105.24999988589798">
+		<general/>
+		<soil>
+			<general usehistory="arable" soil="NONE" humus="NONE" litterheight="0.0" corg5="-99.99" corg30="-99.99"/>
+			<layers>
+				<layer depth="20" ph="6.56" scel="0.11" bd="1.33" sks="-99.99" norg="0.00133" corg="0.01172" clay="0.3" sand="0.41" silt="0.29" wcmin="207.07" wcmax="382.81" iron="0.01"/>
+				<layer depth="180" ph="6.56" scel="0.11" bd="1.33" sks="-99.99" norg="0.00133" corg="0.01172" clay="0.3" sand="0.41" silt="0.29" wcmin="207.07" wcmax="382.81" iron="0.01"/>
+				<layer depth="200" ph="6.65" scel="0.14" bd="1.37" sks="-99.99" norg="0.00076" corg="0.0068" clay="0.35" sand="0.38" silt="0.27" wcmin="228.48" wcmax="383.86" iron="0.01"/>
+				<layer depth="200" ph="6.79" scel="0.15" bd="1.45" sks="-99.99" norg="0.00057" corg="0.00462" clay="0.35" sand="0.39" silt="0.26" wcmin="224.65" wcmax="369.97" iron="0.01"/>
+				<layer depth="200" ph="6.9" scel="0.18" bd="1.5" sks="-99.99" norg="0.00057" corg="0.00364" clay="0.34" sand="0.38" silt="0.28" wcmin="218.15" wcmax="360.29" iron="0.01"/>
+				<layer depth="200" ph="6.95" scel="0.14" bd="1.46" sks="-99.99" norg="0.00057" corg="0.00304" clay="0.34" sand="0.4" silt="0.26" wcmin="215.91" wcmax="363.74" iron="0.01"/>
+			</layers>
+		</soil>
+	</site>
+	<site id="959616899" lat="28.749999964500617" lon="105.74999988569795">
+		<general/>
+		<soil>
+			<general usehistory="arable" soil="NONE" humus="NONE" litterheight="0.0" corg5="-99.99" corg30="-99.99"/>
+			<layers>
+				<layer depth="20" ph="6.56" scel="0.11" bd="1.33" sks="-99.99" norg="0.00133" corg="0.01172" clay="0.3" sand="0.41" silt="0.29" wcmin="207.07" wcmax="382.81" iron="0.01"/>
+				<layer depth="180" ph="6.56" scel="0.11" bd="1.33" sks="-99.99" norg="0.00133" corg="0.01172" clay="0.3" sand="0.41" silt="0.29" wcmin="207.07" wcmax="382.81" iron="0.01"/>
+				<layer depth="200" ph="6.65" scel="0.14" bd="1.37" sks="-99.99" norg="0.00076" corg="0.0068" clay="0.35" sand="0.38" silt="0.27" wcmin="228.48" wcmax="383.86" iron="0.01"/>
+				<layer depth="200" ph="6.79" scel="0.15" bd="1.45" sks="-99.99" norg="0.00057" corg="0.00462" clay="0.35" sand="0.39" silt="0.26" wcmin="224.65" wcmax="369.97" iron="0.01"/>
+				<layer depth="200" ph="6.9" scel="0.18" bd="1.5" sks="-99.99" norg="0.00057" corg="0.00364" clay="0.34" sand="0.38" silt="0.28" wcmin="218.15" wcmax="360.29" iron="0.01"/>
+				<layer depth="200" ph="6.95" scel="0.14" bd="1.46" sks="-99.99" norg="0.00057" corg="0.00304" clay="0.34" sand="0.4" silt="0.26" wcmin="215.91" wcmax="363.74" iron="0.01"/>
+			</layers>
+		</soil>
+	</site>
+</ldndcsite>

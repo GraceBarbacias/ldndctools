@@ -1,0 +1,4 @@
+[console_scripts]
+cdgen = ldndctools.cdgen:main
+dlsc = ldndctools.dlsc:main
+nlcc_split4db = ldndctools.nlcc_split4db:main

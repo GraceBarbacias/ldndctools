@@ -1,0 +1,2 @@
+2025-05-23 14:26:11 [DEBUG   ] GDAL data found in package: path='/opt/anaconda3/envs/ldndc/lib/python3.10/site-packages/rasterio/gdal_data'. (env.py:660)
+2025-05-23 14:26:11 [DEBUG   ] PROJ data found in package: path='/opt/anaconda3/envs/ldndc/lib/python3.10/site-packages/rasterio/proj_data'. (env.py:685)

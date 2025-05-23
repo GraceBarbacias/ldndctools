@@ -28,6 +28,7 @@ from ldndctools.extra import get_config, set_config
 from ldndctools.misc.create_data import create_dataset
 from ldndctools.misc.types import BoundingBox, RES
 from ldndctools.sources.soil.soil_iscricwise import ISRICWISE_SoilDataset
+from ldndctools.sources.soil.soil_national import NATIONAL_SoilDataset
 
 log = logging.getLogger(__name__)
 log.setLevel("INFO")
@@ -123,13 +124,13 @@ def main( **kwargs):
     df = catalog.admin(scale=res_scale_mapper[res]).read()
     
     print("config ", cfg)
-    # if "soil" in cfg and cfg["soil"] == "national":
-    #     soil_raw = catalog.soil_national(res=res.name, port=8082).read()
-    #     print("soil_raw ",soil_raw)
-    #     soil = NATIONAL_SoilDataset( soil_raw)
-    # else:
-    soil_raw = catalog.soil(res=res.name, port=8082).read()
-    soil = ISRICWISE_SoilDataset( soil_raw)
+    if "soil" in cfg and cfg["soil"] == "national":
+        soil_raw = catalog.soil_national(res=res.name, port=8082).read()
+        print("soil_raw ",soil_raw)
+        soil = NATIONAL_SoilDataset( soil_raw)
+    else:
+        soil_raw = catalog.soil(res=res.name, port=8082).read()
+        soil = ISRICWISE_SoilDataset( soil_raw)
 
     if False: #args.file:
         selector = CoordinateSelection(args.file)
